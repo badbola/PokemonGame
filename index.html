@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Catch em all</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pokemon</h1>
+    <main id="main">
+      <div id="inMain">
+        <h2>Rules</h2>
+        <ul>
+          <li>You have to move the sprite using <b>Arrow keys</b></li>
+          <li>
+            As soon the pokeball reaches the count of <b>12</b> th game is over
+          </li>
+          <li>Every <b>10</b> seconds new pokeball will be thrown to screen</li>
+          <li>
+            If you catch all pokeballs within 10 seconds new pokeball will be
+            thrown on screen
+          </li>
+          <li>
+            Make sure you keep balance between time and pokeballs so that you
+            can play longer
+          </li>
+        </ul>
+        <button onclick="visible()">OK</button>
+      </div>
+    </main>
+    <canvas id="canvas" width="608" height="608"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
