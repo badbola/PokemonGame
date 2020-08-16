@@ -25,3 +25,10 @@ ul {
   display: flex;
   flex-direction: column;
 }
+#btn {
+  background-color: darksalmon;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  width: 6rem;
+}
